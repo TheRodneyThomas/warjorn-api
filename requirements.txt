@@ -3,3 +3,4 @@ uvicorn
 PyJWT
 passlib[bcrypt]
 python-multipart
+slowapi
