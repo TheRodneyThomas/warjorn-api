@@ -42,5 +42,8 @@ async def handle_action(username: str, data: dict):
     if action == "ping":
         await manager.send(username, {"event": "pong"})
 
+    elif action == "test":
+        await manager.send(username, {"event": "welcome to warjorn"})
+
     else:
         await manager.send(username, {"event": "error", "detail": f"Unknown action: {action}"})
