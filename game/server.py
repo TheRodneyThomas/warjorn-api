@@ -1,3 +1,16 @@
+# Copyright (c) 2026 R7L LLC. All Rights Reserved.
+#
+# PROPRIETARY AND CONFIDENTIAL
+#
+# This software and its source code are the exclusive property of R7L LLC
+# and are protected by copyright law and international treaties.
+#
+# Unauthorized copying, distribution, modification, public display, or
+# public performance of this software, in whole or in part, is strictly
+# prohibited without the prior written consent of R7L LLC.
+#
+# For licensing inquiries, contact: legal@r7l.us
+
 import logging
 from fastapi import APIRouter, WebSocket, WebSocketDisconnect
 import jwt
