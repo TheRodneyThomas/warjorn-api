@@ -15,7 +15,7 @@ def load_env_file(env_path: str = ".env"):
         key, value = line.split("=", 1)
         os.environ.setdefault(key.strip(), value.strip().strip('"').strip("'"))
 
-
+# Uses Environment Variables from .env
 load_env_file()
 
 SECRET_KEY = os.environ.get("SECRET_KEY")
